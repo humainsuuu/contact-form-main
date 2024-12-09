@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div, p ,h1,h2, h3,h4 {
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(148, 38%, 91%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-from{
+    margin: 50px; 
+    background: hsl(0, 0%, 100%);
+    width: 760px;
+    max-width: 90%;
+    padding: 30px;
+    border-radius: 20px;
+}
+.container-from .row  .input-box{
+    display: flex;
+    flex-direction: column;
+}
+.text-input{
+    padding: 10px 8px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.radio-btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+
+}
+.input-box label{
+    margin-top: 10px;
+}
+.radio-btn label{
+    margin-left: 20px
+}
+p{
+    visibility: hidden;
+    color: hsl(0, 66%, 54%);
+    font-size: 15px;
+
+}
+label span{
+    color: hsl(169, 82%, 27%);
+}
+
+.checkbox label{
+    margin-left: 30px;
+}
+button{
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    background-color: hsl(169, 82%, 27%);
+
+    padding: 10px;
+    text-transform: capitalize;
+
+    border-radius: 10px;
+    margin-top: 60px;
+    visibility: visible;
+}
